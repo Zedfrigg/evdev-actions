@@ -1,4 +1,4 @@
-# EVDEV Actions
+# EVDEV Actions \[WIP]
 
 ## Functionality
 
@@ -7,3 +7,11 @@ This tool allows certain configurable actions to be taken upon events from `evde
 ## Long-Term Solution
 
 The functionality of this tool should ideally be moved into `libinput` and/or Wayland compositors.
+
+## Todos
+
+- Switch to libevdev, find out how to link to it using CMake
+- Pass `/dev/input/by-id/` to libevdev
+- Add file-based configuration for device(s) and actions
+- Write Systemd unit file
+- Write Arch Linux PKGBUILD file
