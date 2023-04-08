@@ -1,4 +1,4 @@
-# EVDEV Actions \[WIP]
+# EVDEV Actions
 
 ## Functionality
 
